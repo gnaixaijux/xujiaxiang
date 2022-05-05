@@ -125,6 +125,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\textController.cs" />
     <Compile Include="Controllers\TodayController.cs" />
+    <Compile Include="Controllers\WaterController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -170,6 +171,8 @@
     <Content Include="Views\Today\Index.cshtml" />
     <Content Include="Views\Test\HW3.cshtml" />
     <Content Include="Views\text\Index.cshtml" />
+    <Content Include="Views\text\HW3.cshtml" />
+    <Content Include="Views\Water\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

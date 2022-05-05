@@ -15,6 +15,8 @@ namespace Web410703701.Controllers
         }
         public ActionResult HW3()
         {
+            ViewBag.vita = "100";
+            ViewData["alice"] = 200;
             return View();
         }
     }
