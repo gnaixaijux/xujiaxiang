@@ -123,6 +123,7 @@
     <Compile Include="Controllers\HelperController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\textController.cs" />
     <Compile Include="Controllers\TodayController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -168,6 +169,7 @@
     <Content Include="Views\Test\HW1.cshtml" />
     <Content Include="Views\Today\Index.cshtml" />
     <Content Include="Views\Test\HW3.cshtml" />
+    <Content Include="Views\text\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
