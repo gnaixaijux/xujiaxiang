@@ -6,9 +6,9 @@
 <h2>會員註冊</h2>
 @using (Html.BeginForm("Signup", "USER", FormMethod.Post))
 {
-<p>@Html.DisplayNameFor(m => m.Name) : @Html.ValidationMessageFor(m => m.Name) @Model.NameMessage </p>
-<p>@Html.DisplayNameFor(m => m.Account) : @Html.ValidationMessageFor(m => m.Account) @Model.AccountMessage</p>
-<p>@Html.DisplayNameFor(m => m.Password) : @Html.ValidationMessageFor(m => m.Password) @Model.PasswordMessage</p>
+<p>@Html.DisplayNameFor(m => m.Name) : @Html.ValidationMessageFor(m => m.Name)  </p>
+<p>@Html.DisplayNameFor(m => m.Account) : @Html.ValidationMessageFor(m => m.Account)</p>
+<p>@Html.DisplayNameFor(m => m.Password) : @Html.ValidationMessageFor(m => m.Password) </p>
     <p>@Model.Message</p>
     <input type="submit" value="註冊" />
 
